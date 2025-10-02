@@ -8,3 +8,5 @@ just download it and at first
 4. make sure you have saved your .pkl file and .h5 file for API creation purpose for checking real time Usage
 5. then make a API and test it
 6. Deployment ( As per your Choice )
+
+Note :- I have shared the literature Review For betterment of the project ans see who have done what type of researches 
