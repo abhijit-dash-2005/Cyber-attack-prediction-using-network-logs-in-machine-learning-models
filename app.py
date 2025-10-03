@@ -3,9 +3,9 @@ import pandas as pd
 import joblib
 
 # Load saved model and preprocessing objects
-rf_model = joblib.load(r"C:\Users\dasha\Desktop\ML PROJECTS\SUNIL SIR\PROJECT\Models\RandomForest_model_2.pkl")
+rf_model = joblib.load("RandomForest_model_2.pkl")
 # scaler = joblib.load("scaler.pkl")  # Uncomment if scaling was used
-label_encoder = joblib.load(r"C:\Users\dasha\Desktop\ML PROJECTS\SUNIL SIR\PROJECT\Models\label_encoder.pkl")
+label_encoder = joblib.load("label_encoder.pkl")
 
 # List your feature column names (order matters!)
 FEATURE_COLUMNS = ['Flow Duration', 'Bwd Packet Length Max', 'Bwd Packet Length Mean', 'Bwd Packet Length Std', 'Flow IAT Std', 'Flow IAT Max', 'Fwd IAT Total', 'Fwd IAT Std', 'Fwd IAT Max', 'Max Packet Length', 'Packet Length Mean', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'Avg Bwd Segment Size', 'Idle Mean', 'Idle Max', 'Idle Min']  # use your real list
