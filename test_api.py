@@ -2,7 +2,7 @@ import requests
 import joblib
 
 # Load label encoder to decode returned class indices
-label_encoder = joblib.load(r"C:\Users\dasha\Desktop\ML PROJECTS\SUNIL SIR\PROJECT\Models\label_encoder.pkl")
+label_encoder = joblib.load("label_encoder.pkl")
 
 # URL of your running Flask API
 url = "http://127.0.0.1:5000/predict"
