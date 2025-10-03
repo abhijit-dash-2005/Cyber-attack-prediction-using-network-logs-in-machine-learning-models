@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load saved model and preprocessing objects
-rf_model = joblib.load("RandomForest_model_2.pkl")
+rf_model = joblib.load("RandomForest_model_3.pkl")
 # scaler = joblib.load("scaler.pkl")  # Uncomment if scaling was used
 label_encoder = joblib.load("label_encoder.pkl")
 
